@@ -3,5 +3,5 @@
 (executable
   ((name main)
    (public_name main)
-   (libraries (fmt))))
+   (libraries (fmt opium ezjsonm))))
 
