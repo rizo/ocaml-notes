@@ -1,0 +1,12 @@
+opam-version: "1.2"
+homepage: "https://github.com/rizo/ocaml-notes"
+dev-repo: "https://github.com/rizo/ocaml-notes.git"
+bug-reports: "https://github.com/rizo/ocaml-notes/issues"
+license: "ISC"
+available: [ ocaml-version >= "4.02.0"]
+depends:
+[
+  "jbuilder" {build}
+]
+depopts: []
+build: ["make" "build"]

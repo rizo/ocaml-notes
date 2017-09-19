@@ -1,0 +1,3 @@
+
+Fmt.pr "hello\n"
+
